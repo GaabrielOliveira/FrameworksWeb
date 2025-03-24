@@ -4,7 +4,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background: #494949;
+    background: #3f3f3f;
 }
 
 #game-container {
@@ -59,4 +59,18 @@ body {
 
 #restart-btn:hover {
     background: #494949;
+}
+
+.cell {
+    width: 20px;
+    height: 20px;
+}
+
+.snake {
+    background: rgb(93, 176, 253);
+}
+
+.food {
+    background: rgb(115, 65, 255);
+    border-radius: 35%;
 }
