@@ -1,0 +1,16 @@
+body {
+    background-color: #2d2d2d; /* Cinza escuro parecido com o fundo do GPT */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  canvas {
+    background-color: #5a5e67;
+    display: block;
+    box-shadow: 0 0 20px #5a5e67;
+    border-radius: 8px;
+  }
+  
